@@ -33,14 +33,6 @@ const Header = () => {
           </NavItem>
 
           <NavItem>
-            <NavLinks to='/work'>WORK</NavLinks>
-          </NavItem>
-
-          <NavItem>
-            <NavLinks to='/PROCESS'>PROCESS</NavLinks>
-          </NavItem>
-
-          <NavItem>
             <NavLinks to='/services'>SERVICES</NavLinks>
           </NavItem>
 

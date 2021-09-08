@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, H3 } from '../../globalStyles';
+import { Button } from '../../globalStyles';
 import { FormField, InputField, InputField2, Section } from './ContactStyles';
 
 const Contact = () => {
