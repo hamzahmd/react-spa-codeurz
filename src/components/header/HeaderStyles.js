@@ -8,7 +8,7 @@ export const Nav = styled.div`
   position: sticky;
   top: 0;
   z-index: 2;
-  height: 80px;
+  height: 60px;
   font-weight: bold;
   font-size: 0.9rem;
   display: flex;
@@ -32,6 +32,9 @@ export const NavLogo = styled(Link)`
   color: #333;
   display: flex;
   align-items: center;
+  &:hover {
+    color: #11bfae;
+  }
 `;
 
 export const NavIcon = styled(FaMagento)`

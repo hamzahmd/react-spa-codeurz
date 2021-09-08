@@ -49,7 +49,11 @@ export const H1 = styled.h1`
   font-size: 40px;
   margin-bottom: 1rem;
 `;
-
+export const H3 = styled.h3`
+  font-size: 30px;
+  margin-bottom: 1rem;
+  color: #fff;
+`;
 export default GlobalStyle;
 
 export const Para = styled.p`
