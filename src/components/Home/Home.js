@@ -1,6 +1,7 @@
 import React from 'react';
 import { Cover, Div1, Div2 } from './HomeStyles';
 import { Button, H1, Para } from '../../globalStyles';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <Cover>
@@ -12,7 +13,9 @@ const Home = () => {
           combined experience, and know a thing or two about designing websites
           and mobile apps.
         </Para>
-        <Button>Contact Us</Button>
+        <Link to='/contact'>
+          <Button type='button'>Contact Us</Button>
+        </Link>
       </Div2>
     </Cover>
   );

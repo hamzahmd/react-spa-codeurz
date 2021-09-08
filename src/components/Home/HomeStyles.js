@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Cover = styled.div`
   background: url('/img/cover-about.jpg') no-repeat center center/cover;
-  height: 90vh;
+  height: 92vh;
   display: flex;
   align-items: center;
   justify-content: center;
