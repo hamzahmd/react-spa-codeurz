@@ -8,6 +8,7 @@ import {
   Footer,
   Contact,
   Testimonials,
+  Services,
 } from './components';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
         <Route path='/testimonials' component={Testimonials} />
+        <Route path='/services' component={Services} />
       </Switch>
       <Footer />
     </Router>
